@@ -1,0 +1,46 @@
+export const ChartsColors = {
+    common: {
+        dataBlue: '#0cd0ff',
+        dataCyan: '#36e1c2',
+        dataGreen: '#55d88b',
+        dataYellow: '#fcc255',
+        dataPink: '#ff809b',
+        dataOrange: '#fc8955',
+        dataRed: '#ea4c67',
+
+        dataBlueBg: '#0cd0ff26',
+        dataCyanBg: '#36e1c226',
+        dataGreenBg: '#55d88b26',
+        dataYellowBg: '#fcc25526',
+        dataPinkBg: '#ff809b26',
+        dataOrangeBg: '#fc895526',
+        dataRedBg: '#ea4c6726',
+
+        dataBlueGradient: ['#0CD0FF66', '#0CD0FF00'],
+        dataCyanGradient: ['#36E1C266', '#36E1C200'],
+        dataGreenGradient: ['#55D88B66', '#55D88B00'],
+        dataYellowGradient: ['#FCC25566', '#FCC25500'],
+        dataPinkGradient: ['#FF809B66', '#FF809B00'],
+        dataOrangeGradient: ['#FC895566', '#FC895500'],
+        dataRedGradient: ['#EA4C6766', '#EA4C6700'],
+    },
+
+    light: {
+        dataBlueText: '#083a5f',
+        dataCyanText: '#186154',
+        dataGreenText: '#266433',
+        dataYellowText: '#564106',
+        dataPinkText: '#582034',
+        dataOrangeText: '#673920',
+        dataRedText: '#762020',
+    },
+    dark: {
+        dataBlueText: '#b4dbf9',
+        dataCyanText: '#adebe0',
+        dataGreenText: '#c4e9cc',
+        dataYellowText: '#f9e2a4',
+        dataPinkText: '#ffcee0',
+        dataOrangeText: '#eccec1',
+        dataRedText: '#eebfbf',
+    },
+};
