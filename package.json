@@ -2,29 +2,26 @@
   "name": "react-native-cm-theme",
   "title": "React Native Cm Theme",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Quick add theme for react native app",
   "main": "index.js",
   "files": [
     "README.md",
-    "android",
-    "index.js",
-    "ios",
-    "react-native-cm-theme.podspec"
+    "src",
+    "index.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-cm-theme.git",
-    "baseUrl": "https://github.com/github_account/react-native-cm-theme"
+    "url": "https://github.com/Milker90/react-native-cm-theme.git",
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "milker90",
+    "email": "tomy.xos@email.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
