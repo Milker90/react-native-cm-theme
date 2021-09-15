@@ -49,9 +49,13 @@ const CommonImages = {
     },
 };
 
-
+<!-- data -->
 const data = { themeColors: [CommonColors], themeStyles: CommonStyles, themeImages: CommonImages }
 ```
+
+The key in the data represents a type of theme data. Its name can be customized. For example, the color can be defined as "themeColors" or "colors"; the json file can be defined as "themeJsons"; these keys will be used in UI components.
+
+The value corresponding to the key can be an array or an object, the theme data included in the object, and the theme name can be customized, such as "light", "dark", "red", etc.
 
 ### 2. Make CMThemeProvider as root node
 
@@ -85,3 +89,5 @@ import { CMTheme } from 'react-native-cm-theme';
 
 return <CMTheme>{({theme, themeColors, themeStyles, themeImages }) => {children}</CMTheme>
 ```
+
+"ThemeStyles", "themeColors", and "themeImages" are defined in the data, and you can customize your own.
