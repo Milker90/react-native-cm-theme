@@ -6,7 +6,7 @@
 
 or
 
-`yarn react-native-cm-theme --save`
+`yarn add react-native-cm-theme --save`
 
 ## Usage
 
@@ -90,4 +90,4 @@ import { CMTheme } from 'react-native-cm-theme';
 return <CMTheme>{({theme, themeColors, themeStyles, themeImages }) => {children}</CMTheme>
 ```
 
-"ThemeStyles", "themeColors", and "themeImages" are defined in the data, and you can customize your own.
+"themeStyles", "themeColors", and "themeImages" are defined in the data, and you can customize your own.

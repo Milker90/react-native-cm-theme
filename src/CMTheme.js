@@ -30,15 +30,15 @@ const CMThemeProvider = ({ theme = "light", data = {}, children, debug = false }
 
       return tmpThemeCategoryElements;
     },
-    [theme, data],
+    [theme, data, debug],
   );
+
+  const [themeCategoryElements, setThemeCategoryElements] = useState(() => buildThemeElements());
 
   useEffect(() => {
     const tmpThemeCategoryElements = buildThemeElements();
     setThemeCategoryElements(tmpThemeCategoryElements);
   }, [theme, data]);
-
-  const [themeCategoryElements, setThemeCategoryElements] = useState(() => buildThemeElements());
 
   return (
     <CMThemeContext.Provider
